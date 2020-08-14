@@ -1,0 +1,13 @@
+<div>
+    <h3>Upcoming Angular Events</h3>
+    <hr />
+    <div class="row">
+        <div *ngFor="let event of events" class="col-md-4">
+            <app-event-template #eventTemplate  (eventClick)="handleEventClicked($event)" (click)="handleClick(event.name,event.id)"
+                [event]="event" >
+            </app-event-template>
+        </div>
+    </div>
+</div>
+
+<!--<button class="btn btn-info" (click) = "eventTemplate.handleClickMe()">Click Me</button> -->

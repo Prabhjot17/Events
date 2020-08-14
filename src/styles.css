@@ -1,0 +1,48 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+body{
+  background-color: #324355 ;
+  color:white;
+
+}
+/* You can add global styles to this file, and also import other style files */
+
+.well:hover {
+  background-color: #304357 !important;
+  cursor: pointer;
+}
+
+.container {
+  padding-top: 10px;
+}
+
+.pointable {
+  cursor: pointer;
+}
+
+button {
+  color: #555;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+.toast-success {
+  background-color: #51a351;
+}
+.toast-error {
+  background-color: #bd362f;
+}
+.toast-info {
+  background-color: #2f96b4;
+}
+.toast-warning {
+  background-color: #f89406;
+}
+
+.toast-top-center { 
+  top: 12px; 
+  left: 50%; 
+  margin-left: -150px; 
+} 

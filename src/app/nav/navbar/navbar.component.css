@@ -1,0 +1,13 @@
+
+.nav.navbar-nav {
+    font-size: 15px;
+}
+
+#searchForm {
+    margin-right: 30px;
+}
+@media (max-width:1200px) {#searchForm{display:none}}
+
+li a.active {
+    color:rgb(235, 106, 0)
+}
